@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Quebracabeca.Teste;
+using System;
 
 namespace Main
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            PerformanceTest test = new PerformanceTest();
+            test.Compare();
         }
     }
 }
